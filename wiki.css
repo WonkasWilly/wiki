@@ -13,3 +13,16 @@
 .form-control {
     border-radius: 5px;
 }
+.result-boxes {
+    border: 1px solid white;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.each-result {
+    border: 1px solid white;
+    margin: 5px;
+    background-color: #336cac;
+    color: white;
+    border-radius: 5px;
+}
