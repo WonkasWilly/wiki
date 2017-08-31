@@ -16,6 +16,7 @@ $(function(){
                     var createSnippet = document.createElement("p");
 
                    createDiv.setAttribute("id", "div" + i.toString());
+                   console.log("div" + i.toString());
                    createHeader.setAttribute("id", "header" + i.toString());
                    createSnippet.setAttribute("id", "snippet" + i.toString());
                    createDiv.setAttribute("class", "each-result");
@@ -26,6 +27,7 @@ $(function(){
 
                     $("#header" + i.toString()).text(headerData);
                     $("#snippet" + i.toString()).html(snippetData);
+                    
                 }
 
             }
